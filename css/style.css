@@ -168,12 +168,41 @@ height:100%;}
 	max-width: 100vw;
 	background-repeat: no-repeat;
 	background-position: center;animation-delay: 15s;
-	z-index: 0;animation: fade-out 75s infinite;animation-fill-mode: backwards;
-	}
+	z-index: 0;
+	animation: fade-out 75s infinite;animation-fill-mode: backwards;
+	-webkit-animation: fade-out 75s infinite;animation-fill-mode: backwards;
+    -moz-animation: fade-out 75s infinite;animation-fill-mode: backwards;
+    -o-animation: fade-out 75s infinite;animation-fill-mode: backwards;
+    -ms-animation: fade-out 75s infinite;animation-fill-mode: backwards;
+    }
 	/*---fade show animations---*/
 
 
 
+@-webkit-keyframes fade-out {
+	0% {background-image: url('../images/earth.png');}
+  25% {background-image: url('../images/mononoke-hero.png');}
+  50% {background-image: url('../images/siren-long.png');}
+  75% {background-image: url('../images/bear-hero.png');}
+
+
+}
+@-moz-keyframes fade-out {
+	0% {background-image: url('../images/earth.png');}
+  25% {background-image: url('../images/mononoke-hero.png');}
+  50% {background-image: url('../images/siren-long.png');}
+  75% {background-image: url('../images/bear-hero.png');}
+
+
+}
+@-o-keyframes fade-out {
+	0% {background-image: url('../images/earth.png');}
+  25% {background-image: url('../images/mononoke-hero.png');}
+  50% {background-image: url('../images/siren-long.png');}
+  75% {background-image: url('../images/bear-hero.png');}
+
+
+}
 @keyframes fade-out {
 	0% {background-image: url('../images/earth.png');}
   25% {background-image: url('../images/mononoke-hero.png');}
