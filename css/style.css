@@ -1219,15 +1219,12 @@ opacity:0;pointer-events: none;
 	padding:0;
 }
 
-.hero{background-position: 70%;animation:none;
-  	
-  	
 
-
-
-}
 @media only screen and (max-width: 600px){
-	.hero{min-height:none;}
+	.hero{
+  	background-position: 70%;min-height:none;
+  	animation:none;
+}
 	.left-col{
 		margin: 0;
 		max-width:unset;
