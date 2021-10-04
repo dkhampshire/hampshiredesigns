@@ -1125,12 +1125,6 @@ opacity:0;pointer-events: none;
 		background: rgb(0 0 0 / 0.4);
 		}
 .hero{background-position: 80%;}
-
-@media only screen and (max-width: 1024px){
-
-	
-		
-
 }
 @media only screen and (max-width: 768px){
 	.carousel_button--left{
@@ -1142,7 +1136,7 @@ opacity:0;pointer-events: none;
 	
 	
 	
-	}
+	
 	}
   #ON.carousel_button--right, #ON.carousel_button--left, .carousel_button--left, .carousel_button--right {
 	display:none;
@@ -1257,8 +1251,10 @@ opacity:0;pointer-events: none;
 .anime-section{
 	padding:0;
 }
-
-
+.lightbox .text{
+	opacity:1;padding:0rem;font-size:1.5rem;
+}
+}
 @media only screen and (max-width: 600px){
 	.hero{
   	background-position: 70%;min-height:none;
