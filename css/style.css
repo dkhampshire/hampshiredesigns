@@ -670,12 +670,13 @@ li::before, project-col{
 
 .logo-container{
 	display: flex;
-	grid-gap:10px 250px;
+	gap: 10px 250px;
 	flex-wrap:wrap;
 	width:100%;
 	height:100%;
 	margin: 3rem 0;
-	padding:1rem;box-sizing:border-box;
+	padding:1rem;
+	box-sizing:border-box;
 	justify-content:center;
 	align-items:center;
 }
@@ -1296,7 +1297,7 @@ opacity:0;pointer-events: none;
 	margin: 0rem 0;
 }
 .logo-section, .logo-container{
-	padding:.5rem;
+	padding: .5rem;
 	margin:0 auto;
 }
 
@@ -1307,6 +1308,7 @@ h1, .left-col h1{
 .foot-left{
 	padding:1rem;
 }
+
 .project-dark{font-size:2.2rem;}
 }
 }
