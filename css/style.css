@@ -1094,7 +1094,8 @@ border-radius:20px;
 /*---page animations---*/
 .pageloader{
 	background:black url('../images/load anime.svg') no-repeat center center;
-	position: fixed;z-index:1000;
+	position: fixed;
+	z-index:1000;
 	background-size: 15%;
   left: 0;
   top: 0;
@@ -1134,6 +1135,10 @@ opacity:1;pointer-events: none;
 	.hero{background-position: 80%;}
 }
 @media only screen and (max-width: 768px){
+	.pageloader{
+		background:black url('../images/load-still.svg') no-repeat center center;
+		background-size: 15%;
+		}
 	.carousel_button--left{
 		left:-3px;
 
