@@ -1,3 +1,11 @@
+//preloader animation fade//
+var loader = document.querySelector(".pageloader")
+
+window.addEventListener("load", vanish);
+
+function vanish() {
+	loader.classList.add("disappear");
+};
 /* mobile menu*/
 const hamburger = document.getElementById('hamburger');
 const navUL = document.getElementById('nav-ul');
@@ -5,7 +13,6 @@ const navUL = document.getElementById('nav-ul');
 hamburger.addEventListener('click', () =>{
 	navUL.classList.toggle('show');
 });
-
 /*----carousel----*/
 const track = document.querySelector('.carousel_track');
 const slides= Array.from(track.children);
@@ -16,12 +23,6 @@ const dots = Array.from(dotsNav.children);
 
 const slideWidth = slides[0].getBoundingClientRect().width;
 
-
-
-//arrange the slides next to one another
-//slides[0].style.left = slideWidth * 0 + 'px';
-//slides[1].style.left = slideWidth * 1 + 'px';
-//slides[2].style.left = slideWidth * 2 + px;
 
 const setSlidePosition = (slide, index) => { 
 	slide.style.left = slideWidth * index + 'px';};
@@ -100,7 +101,6 @@ dotsNav.addEventListener('click', e => {
 	
 	
 });
-
 
 
 
