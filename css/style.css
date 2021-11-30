@@ -192,7 +192,7 @@ height:100%;}
 
 @-webkit-keyframes fade-out {
 	0% {background-image: url('../images/earth.png');}
-  25% {background-image: url('../images/mononoke-hero.png');}
+  25% {background-image: url('../images/amazonian-hero.png');}
   50% {background-image: url('../images/siren-long.png');}
   75% {background-image: url('../images/bear-hero.png');}
 
@@ -201,7 +201,7 @@ height:100%;}
 
 @keyframes fade-out {
 	0% {background-image: url('../images/earth.png');}
-  25% {background-image: url('../images/mononoke-hero.png');}
+  25% {background-image: url('../images/amazonian-hero.png');}
   50% {background-image: url('../images/siren-long.png');}
   75% {background-image: url('../images/bear-hero.png');}
 
