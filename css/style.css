@@ -1001,6 +1001,7 @@ border-radius:20px;
 	 height: 56.25%;
 	 margin: 0rem -1px;
 	 flex-wrap:wrap;
+	 padding-bottom:1rem;
 }
 .video-flex h2, .video-flex p {
 	color:#0c132b;
