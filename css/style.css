@@ -513,7 +513,7 @@ flex-basis:600px;
 /*---le page--*/
 }
 .project-col li {font-family: 'Raleway', sans-serif;text-decoration: none;font-weight: 300;font-size: 1rem;text-decoration: none;margin-left:2rem;text-align: left;line-height: 2rem;}
-li::before, project-col{
+.project-col li::before {
   content: "";
   border-color: transparent #111;
   border-style: solid;
