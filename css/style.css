@@ -727,7 +727,7 @@ flex-basis:600px;
 @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
   .logo-item p {
     -webkit-backdrop-filter:blur(5px) saturate(1.8) brightness(80%);
-	backdrop-filter:blur(5px) saturate(1.8) brightness(80%);
+	backdrop-filter:blur(5px) saturate(1.8) brightness(50%);
   }
 }
 
@@ -775,8 +775,8 @@ border: 5px #CECECE solid;
 border-radius:20px;
   overflow: hidden;z-index:1;
 }
-.gj-item{
-border: 5px #9C81A8 solid;
+.le-item{
+border: 5px #000000 solid;
 border-radius:20px;
   overflow: hidden;z-index:1;
 }
