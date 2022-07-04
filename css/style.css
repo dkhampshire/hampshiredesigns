@@ -167,7 +167,7 @@ height:100%;}
 
 .hero{
 	background-size: cover;
-	background-image: url('../images/earth.png');
+	background-image: url('../images/amazonian-hero.png');
 	position:relative;
 	height:100vh;
 	min-height:900px;
@@ -186,7 +186,7 @@ height:100%;}
     
     }
    
-	/*---fade show animations---*/
+	/*---fade show animations-
 
 
 
@@ -208,7 +208,7 @@ height:100%;}
 
 }
 
-
+--*/
 
 	/*---*/
 .profile{display:flex;margin:0 0 2rem 0;align-items:center;
