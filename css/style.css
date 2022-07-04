@@ -177,8 +177,8 @@ height:100%;}
 	background-image: url('../images/amazonian-hero.png');*/
 	position:relative;
 	height:100vh;
-	/*min-height:900px;
-	max-width: 100vw;
+	min-height:900px;
+	/*max-width: 100vw;
 	background-repeat: no-repeat;
 	background-position: center;
 	animation-delay: 15s;
